@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* css for index.html */
+.index-body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(90deg, #6190e8, #a7bfe8);
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.2rem;
+    overflow: hidden;
+    color: rgb(33,33,33);
+    float: left;
+    padding: 0 5rem;
+    margin: 0 4rem;
+}
+
+ul {
+    display: flex;
+    padding: 0 5rem;
+    margin: 0 4rem;
+    text-decoration: none;
+    float: right;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+.hero-section {
+    height: 80vh;
+    margin: 0% 10%;
+}
+
+.hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-text {
+    display: flex;
+    font-size: 2rem;
+}
+
+.cta-text h2 {
+    overflow: hidden;
+}
+
+.cta-text span {
+    padding: 0rem 0.4rem;
+    display: block;
+    text-shadow: rgba(0,0,0, 0.4) 0px 0px 20px;
+}
+
+.cta-button {
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+    background: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 0.5rem;
+    color: rgba(33,33,33);
+    border: none;
+    font-size: 0.7rem;
+}
+
+.cta-button a {
+    text-decoration: none;
+}
